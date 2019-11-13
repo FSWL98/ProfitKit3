@@ -1,0 +1,153 @@
+body {
+    width: 1200px;
+    height: 700px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    font-family: "PT Sans Caption", sans-serif;
+}
+.preheader {
+    height: 45px;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.preheader div {
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+}
+.preheader--location {
+    margin-left: 94px;
+    flex-basis: 176px;
+}
+.preheader--info {
+    width: 669px;
+    display: flex;
+    justify-content: space-around;
+}
+.preheader--location .location-icon {
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.preheader--location .bottom-arrow {
+    margin-left: 7px;
+}
+.account-text {
+    color: blue;
+    border-bottom: 1px dotted blue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.header-main,
+.header-main--main-block,
+.header-main--main-block .logo,
+.header-main--main-block .phone,
+.header-main .cart{
+    display: flex;
+    align-items: center;
+}
+.header-main--main-block .logo .name {
+    font-size: 34px;
+    line-height: 49px;
+    height: 102px;
+    margin-left: 94px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+.header-main--main-block .logo .phrase {
+    display: inline-block;
+    width: 109px;
+    font-size: 13px;
+    margin-left: 12px;
+    height: 100%;
+}
+.header-main--main-block .phone {
+    margin-left: 42px;
+}
+.header-main--main-block .phone div {
+    display: inline-block;
+    font-size: 16px;
+}
+.header-main--main-block .phone .call {
+    font-size: 11px;
+    color: #337FD2;
+    border-bottom: 1px dotted #337FD2;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-main .search {
+    font-size: 13px;
+    color: #8e8e8e;
+    border: solid 1px #8e8e8e;
+    line-height: 17px;
+    width: 259px;
+    height: 29px;
+    border-radius: 21px;
+    padding-top: 14px;
+    margin-left: 20px;
+}
+.header-main .search span{
+    padding: 19px;
+}
+.header-main .search i {
+    position: absolute;
+    top: 88px;
+    left: 856px;
+}
+.header-main .cart {
+    justify-content: space-around;
+    width: 158px;
+    margin-left: 39px;
+}
+.header-main .cart .circle {
+    display: inline-block;
+    background: #E65555;
+    height: 25px;
+    width: 29px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+.menu {
+    background-color: #313d50;
+    height: 49px;
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.menu .active {
+    height: inherit;
+    margin: 0;
+    padding: 16px 4px 16.5px 0;
+    display: inline;
+    align-items: center;
+    margin-left: 140px;
+    background-color: #337FD2;
+    width: 123px;
+    cursor: pointer;
+}
+.menu-flex {
+    display: inline-flex;
+    height: 49px;
+    justify-content: space-around;
+    align-items: center;
+    width: 825px;
+}
+.menu-flex div {
+    cursor: pointer;
+}
+.menu-button {
+    position: absolute;
+    top: 149px;
+    left: 95px;
+    border: solid 15px #337FD2;
+    background-color: #337FD2;
+}
